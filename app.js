@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const studentrouter = require('./routs/studentrout')
 const facltyrouter = require('./routs/feclty')
+
 const mongoose = require('mongoose')
 app.use(express.json())
 mongoose.connect("mongodb+srv://vajeermohammad81:vajeerkhan123@cluster0.uoobtbm.mongodb.net/test")
